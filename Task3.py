@@ -16,6 +16,6 @@ print(f'Минимальное - {df["median_house_value"].min()}, Максим�
 
 print(df[df['median_income'] == 3.1250]["median_house_value"].max())
 
-# 3. Узнать какая максимальная population в зоне минимального значения median_house_value
+# 3. Узнать какая максимальная population в зоне минимального значения median_house_value:
 
 print(df[df['median_house_value'] == df['median_house_value'].min()]['population'].max())
