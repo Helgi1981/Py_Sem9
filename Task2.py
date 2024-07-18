@@ -22,6 +22,6 @@ print(df[df['median_income'] < 2]['median_house_value'])
 # print(df[['longitude', 'latitude']])
 print(df.iloc[:, :2])
 
-# 4. Выбрать данные где housing_median_age < 20 и median_house_value > 70000
+# 4. Выбрать данные где housing_median_age < 20 и median_house_value > 70000:
 
 print(df[(df['housing_median_age'] < 20) & (df['median_house_value'] > 70000)])
